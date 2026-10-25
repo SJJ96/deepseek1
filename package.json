@@ -1,7 +1,7 @@
 
 {
   "name": "dsh-adult-fiction",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "main": "index.js",
   "files": [
@@ -9,6 +9,9 @@
     "cordis.patch.yml",
     "README.zh-CN.md"
   ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
